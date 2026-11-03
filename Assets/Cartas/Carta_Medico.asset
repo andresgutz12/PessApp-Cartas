@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5514725705291c541905986a43fe4712, type: 3}
+  m_Name: Carta_Medico
+  m_EditorClassIdentifier: Assembly-CSharp::CardData
+  palabra: "M\xE9dico"
+  figura: {fileID: 0}
+  categoria: 1
+  fondoCarta: {fileID: -152065619, guid: a0e6b6ebb04871f4e92284eb23626ddd, type: 3}
+  explicacion: "\"M\xE9dico\" es esdr\xFAjula porque su s\xEDlaba t\xF3nica es la antepen\xFAltima (m\xE9-di-co)."
