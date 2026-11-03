@@ -26,8 +26,6 @@ public class CartaDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
         canvasGroup.blocksRaycasts = false;
         canvasGroup.alpha = 0.85f;
         transform.SetAsLastSibling();
-
-        Debug.Log($"[DRAG INICIO] Carta: {gameObject.name} | blocksRaycasts: {canvasGroup.blocksRaycasts}");
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -37,13 +35,6 @@ public class CartaDrag : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDra
 
     public void OnEndDrag(PointerEventData eventData)
     {
-
-        string objetoDebajo = eventData.pointerCurrentRaycast.gameObject != null
-        ? eventData.pointerCurrentRaycast.gameObject.name
-        : "NINGUNO";
-
-        Debug.Log($"[DRAG FIN] Soltada sobre: {objetoDebajo}");
-
         canvasGroup.blocksRaycasts = true;
         canvasGroup.alpha = 1f;
         // Si no fue destruida por una bandeja válida, regresa a su centro
