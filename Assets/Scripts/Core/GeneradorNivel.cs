@@ -39,7 +39,7 @@ public class GeneradorNivel : MonoBehaviour
         }
 
         CardData siguiente = colaCartas.Dequeue();
-        cartaActualInstanciada = Instantiate(cardPrefab, cardSpawnPoint);
+        cartaActualInstanciada = Instantiate(cardPrefab, cardSpawnPoint, false);
         cartaActualInstanciada.GetComponent<CartaUI>().ConfigurarCarta(siguiente, nivel);
     }
 
@@ -47,7 +47,9 @@ public class GeneradorNivel : MonoBehaviour
     {
         if (cartaActualInstanciada != null)
         {
+            cartaActualInstanciada.SetActive(false);
             Destroy(cartaActualInstanciada);
+            cartaActualInstanciada = null;
         }
     }
 }
