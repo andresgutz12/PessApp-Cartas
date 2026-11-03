@@ -1685,7 +1685,37 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 726fef3b851c6b74e8d0617a7a7830c8, type: 2}
   - {fileID: 11400000, guid: 367e46acb5cde9a468d1d7b28abfced1, type: 2}
   - {fileID: 11400000, guid: 5ce274e9f651f5247990a5a698ee3d66, type: 2}
-  - {fileID: 11400000, guid: 726fef3b851c6b74e8d0617a7a7830c8, type: 2}
+  - {fileID: 11400000, guid: 0cc051215bb735f45a745d83aca586f7, type: 2}
+  - {fileID: 11400000, guid: bf91c504f0d7ade46bfef5a814d87a7f, type: 2}
+  - {fileID: 11400000, guid: c08f54fff95633f4ba22d5c058219e0b, type: 2}
+  - {fileID: 11400000, guid: 493940c66dcb5694e8adc46c1fe81659, type: 2}
+  - {fileID: 11400000, guid: 021db6b1e928fca44bb0675fae462017, type: 2}
+  - {fileID: 11400000, guid: 5b79352e280a7604d857778faae7611d, type: 2}
+  - {fileID: 11400000, guid: 003233a18dd4c7b47973c8e80b9a97f2, type: 2}
+  - {fileID: 11400000, guid: bf2bb691c25144440b271070577ecce7, type: 2}
+  - {fileID: 11400000, guid: 63800cb569980e04da132201566d2427, type: 2}
+  - {fileID: 11400000, guid: 3996425e8baa8ed418a93a3b66494935, type: 2}
+  - {fileID: 11400000, guid: 5a0605df623574448a0cc88af4a29ba5, type: 2}
+  - {fileID: 11400000, guid: 0e1fb99cfcc414c41ac3ff94f91670b7, type: 2}
+  - {fileID: 11400000, guid: 486b98bd5e7987e498b1eb313c02dd54, type: 2}
+  - {fileID: 11400000, guid: ec6b8edc2dd19304b976df67642dd8a1, type: 2}
+  - {fileID: 11400000, guid: bd1d1068eded2574c9d8b0c2f75381fd, type: 2}
+  - {fileID: 11400000, guid: 07c63c0c108f740499496015601dde60, type: 2}
+  - {fileID: 11400000, guid: 8837cdcf453466e48873cdfec05ddb13, type: 2}
+  - {fileID: 11400000, guid: bf45709a2ee0ed940ad3f23be27ae02c, type: 2}
+  - {fileID: 11400000, guid: 462e42f2875d98d4fbc23bd69ed12413, type: 2}
+  - {fileID: 11400000, guid: f133cc8250e84d246b1e88552b9ed31a, type: 2}
+  - {fileID: 11400000, guid: aa272942e5bbb7140a0f7f65dd34ca53, type: 2}
+  - {fileID: 11400000, guid: 8d5de52ae2ccd2a4c938a1e6e7c622e0, type: 2}
+  - {fileID: 11400000, guid: c1e78efe1dbe9e34197a56829def4272, type: 2}
+  - {fileID: 11400000, guid: e7beabef600ef92428841d3cd70e99fe, type: 2}
+  - {fileID: 11400000, guid: 2aca09b0aa6a1b04695251756b4199ad, type: 2}
+  - {fileID: 11400000, guid: bfb9577ebbd2f834f87900b50aab6234, type: 2}
+  - {fileID: 11400000, guid: 5ef08580487efeb418e0f6abd7b7db3c, type: 2}
+  - {fileID: 11400000, guid: cfe6ee0c63ca689479e21ebe787b70d3, type: 2}
+  - {fileID: 11400000, guid: 20f69b139fb27b944861115dc01fd951, type: 2}
+  - {fileID: 11400000, guid: 5c5a3bdd7a1ed324e84584972851c174, type: 2}
+  - {fileID: 11400000, guid: 423cbeeb1162e8846bf0dfb4baa50237, type: 2}
   cardPrefab: {fileID: 6324646860924429765, guid: 0502f2d3894c9994f99d2573e52791d7, type: 3}
   cardSpawnPoint: {fileID: 2087490260}
 --- !u!114 &1032834185
@@ -1703,8 +1733,8 @@ MonoBehaviour:
   generadorNivel: {fileID: 1032834184}
   uiManager: {fileID: 1032834183}
   comentariosManager: {fileID: 1032834182}
-  cartasParaGanarNivel1y2: 6
-  vidasInicialesNivel3: 3
+  cartasParaGanarNivel1y2: 4
+  vidasInicialesNivel3: 5
 --- !u!4 &1032834186
 Transform:
   m_ObjectHideFlags: 0

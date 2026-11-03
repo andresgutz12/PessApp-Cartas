@@ -17,7 +17,7 @@ public class GeneradorNivel : MonoBehaviour
         colaCartas.Clear();
 
         // En el Nivel 2 filtramos solo cartas que tengan figura asignada
-        IEnumerable<CardData> pool = (nivel == 2)
+        IEnumerable<CardData> pool = (nivel == 2) &&  catalogoCompleto.Any(c => c.figura != null)
             ? catalogoCompleto.Where(c => c.figura != null)
             : catalogoCompleto;
 
